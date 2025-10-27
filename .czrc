@@ -1,0 +1,159 @@
+{
+  "path": "node_modules/cz-git",
+  "useEmoji": true,
+  "emojiAlign": "center",
+  "useAI": false,
+  "aiNumber": 1,
+  "themeColorCode": "",
+  "scopes": [
+    "root",
+    "backend",
+    "frontend",
+    "components",
+    "utils",
+    "scripts"
+  ],
+  "scopeOverrides": {
+    "fix": [
+      {
+        "value": "root",
+        "name": "root:     根目录"
+      },
+      {
+        "value": "backend",
+        "name": "backend:  后端应用"
+      },
+      {
+        "value": "frontend",
+        "name": "frontend: 前端应用"
+      },
+      {
+        "value": "components",
+        "name": "components: 组件库"
+      },
+      {
+        "value": "utils",
+        "name": "utils:     工具库"
+      },
+      {
+        "value": "scripts",
+        "name": "scripts:   脚本"
+      }
+    ]
+  },
+  "allowCustomScopes": true,
+  "allowEmptyScopes": true,
+  "customScopesAlign": "bottom",
+  "customScopesAlias": "custom:     自定义",
+  "emptyScopesAlias": "empty:      不填写",
+  "upperCaseSubject": false,
+  "markBreakingChangeMode": false,
+  "allowBreakingChanges": [
+    "feat",
+    "fix"
+  ],
+  "breaklineNumber": 100,
+  "breaklineChar": "|",
+  "skipQuestions": [
+    "body"
+  ],
+  "issuePrefixes": [
+    {
+      "value": "closed",
+      "name": "closed:   已关闭"
+    },
+    {
+      "value": "fixed",
+      "name": "fixed:    已修复"
+    },
+    {
+      "value": "solved",
+      "name": "solved:   已解决"
+    }
+  ],
+  "customIssuePrefixAlign": "top",
+  "emptyIssuePrefixAlias": "skip:      跳过",
+  "customIssuePrefixAlias": "custom:   自定义",
+  "allowCustomIssuePrefix": true,
+  "allowEmptyIssuePrefix": true,
+  "confirmColorize": true,
+  "maxHeaderLength": 108,
+  "maxSubjectLength": 100,
+  "minSubjectLength": 0,
+  "defaultScope": "",
+  "defaultSubject": "",
+  "defaultBody": "",
+  "defaultIssues": "",
+  "types": [
+    {
+      "value": "feat",
+      "name": "feat:     新增功能",
+      "emoji": "✨"
+    },
+    {
+      "value": "fix",
+      "name": "fix:      修复缺陷",
+      "emoji": "🐛"
+    },
+    {
+      "value": "docs",
+      "name": "docs:     文档变更",
+      "emoji": "📚"
+    },
+    {
+      "value": "style",
+      "name": "style:    代码格式",
+      "emoji": "💎"
+    },
+    {
+      "value": "refactor",
+      "name": "refactor: 代码重构",
+      "emoji": "📦"
+    },
+    {
+      "value": "perf",
+      "name": "perf:     性能优化",
+      "emoji": "🚀"
+    },
+    {
+      "value": "test",
+      "name": "test:     添加疏漏测试或已有测试改动",
+      "emoji": "🚨"
+    },
+    {
+      "value": "build",
+      "name": "build:    构建流程、外部依赖变更",
+      "emoji": "🛠"
+    },
+    {
+      "value": "ci",
+      "name": "ci:       修改 CI 配置、脚本",
+      "emoji": "⚙️"
+    },
+    {
+      "value": "chore",
+      "name": "chore:    对构建过程或辅助工具和库的更改",
+      "emoji": "♻️"
+    },
+    {
+      "value": "revert",
+      "name": "revert:   回滚 commit",
+      "emoji": "🗑"
+    },
+    {
+      "value": "types",
+      "name": "types:    类型定义文件修改",
+      "emoji": "🏷️"
+    },
+    {
+      "value": "wip",
+      "name": "wip:      正在开发中",
+      "emoji": "🚧"
+    },
+    {
+      "value": "workflow",
+      "name": "workflow: 工作流程改进",
+      "emoji": "🔄"
+    }
+  ]
+}
