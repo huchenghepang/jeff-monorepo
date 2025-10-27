@@ -38,8 +38,7 @@ export default defineConfig(
         ...globals.browser
       }
     },
-    rules: {
-    }
+    rules: {}
   },
 
   // 后端配置

@@ -11,7 +11,8 @@
     "frontend",
     "components",
     "utils",
-    "scripts"
+    "scripts",
+    "config"
   ],
   "scopeOverrides": {
     "fix": [
@@ -38,6 +39,10 @@
       {
         "value": "scripts",
         "name": "scripts:   脚本"
+      },
+      {
+        "value": "config",
+        "name": "config:   配置文件"
       }
     ]
   },
