@@ -3,5 +3,11 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "eslint.options": {
     "overrideConfigFile": "./eslint.config.js"
+  },
+  "files.exclude": {
+    "**/.husky": true
+  },
+  "search.exclude": {
+    "**/.husky": true
   }
 }

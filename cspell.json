@@ -24,6 +24,8 @@
     "prettierignore",
     "cspell.json",
     "commitlint.config.js",
-    ".cspell"
+    ".cspell",
+    ".env",
+    ".vscode/**"
   ]
 }
