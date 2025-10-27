@@ -8,7 +8,8 @@
     "lint:prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,less,vue,html,mjs,cjs,scss}\"",
     "lint:eslint": "eslint",
     "lint:spellcheck": "cspell lint \"(packages|apps)/**/*.{js,jsx,mjs,cjs,ts,tsx,json,css,less,vue,html,scss}\"",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
@@ -33,6 +34,7 @@
     "eslint-plugin-prettier": "^5.5.4",
     "eslint-plugin-vue": "^10.5.0",
     "globals": "^16.4.0",
+    "husky": "^9.1.7",
     "prettier": "^3.6.2",
     "typescipt": "^1.0.0",
     "typescript-eslint": "^8.45.0"
