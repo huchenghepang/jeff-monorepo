@@ -5,7 +5,7 @@ import eslintPluginVue from 'eslint-plugin-vue';
 import { defineConfig } from 'eslint/config';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
-const ignores = ['**/dist/**', '**/node_modules/**', '.*', 'scripts/**', '**/*.d.ts'];
+const ignores = ['**/dist/**', '**/node_modules/**', '/.*', 'scripts/**', '**/*.d.ts'];
 export default defineConfig(
   {
     // 通用配置
@@ -34,6 +34,15 @@ export default defineConfig(
     extends: [...eslintPluginVue.configs['flat/recommended'], eslintConfigPrettier],
     languageOptions: {
       // 配置前端相关的全局变量
+      parser: eslintPluginVue.parser,
+      parserOptions: {
+        // ✅ 嵌套解析器：解析 <script lang="ts"> 中的 TypeScript
+        parser: tseslint.parser,
+        extraFileExtensions: ['.vue'],
+        ecmaVersion: 'latest',
+        sourceType: 'module',
+        ecmaFeatures: { jsx: true }
+      },
       globals: {
         ...globals.browser
       }

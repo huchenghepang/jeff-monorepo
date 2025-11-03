@@ -10,5 +10,22 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.12.4"
+  "dependencies": {
+    "vue": "^3.5.22",
+    "@jeff-monorepo/utils": "workspace:*"
+  },
+  "buildOptions": {
+    "name": "JeffMonorepoComponents",
+    "formats": [
+      "esm",
+      "cjs",
+      "iife"
+    ]
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
